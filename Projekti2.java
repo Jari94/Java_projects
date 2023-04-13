@@ -12,15 +12,9 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JTextField;
 
-/**
- *
- * @author FinFox
- */
+
 public class AjanVaraaja extends javax.swing.JFrame {
 
-    /**
-     * Creates new form AjanVaraaja
-     */
     public AjanVaraaja() {
         initComponents(); /*Initcomponents() alustaa poikkeuksetta kaikki Java swing -komponenttiobjektit, joita käyttöliittymäsi graafinen käyttöliittymä käyttää NetBeans GUI Builderin avulla.*/
         Connect();
